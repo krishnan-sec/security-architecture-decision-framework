@@ -110,6 +110,6 @@
 | Architecture Diagram | Legacy Integration Network Segmentation v1.2 |
 | Policy Reference | Cryptographic Standards Policy |
 | Linked Decisions | SAD-002 (Privileged Access Model) |
-| Linked Exceptions | EX-014 – TLS 1.0 Temporary Exception |
+| Linked Exceptions | EX-014 - TLS 1.0 Temporary Exception |
 
 ---
