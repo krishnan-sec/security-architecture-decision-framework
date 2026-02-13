@@ -40,27 +40,24 @@ The goal is deliberate and defensible security engineering, not additional burea
 
 ---
 
-## Repository Contents
+## Repository Structure
 
-This repository is organized around the core components required to govern security architecture decisions effectively.
+This repository is organized around the core components required to govern security architecture decisions at enterprise scale.
 
-### 1. Decision Records
-Structured templates for documenting architectural decisions, risk linkage, trade-offs, ownership, and review expectations.
+### 1. [Decision Records](/decision-records/README.md)
+Structured Security Architecture Decision (SAD) templates and enterprise-polished examples documenting architectural trade-offs, risk linkage, ownership, and validation expectations.
 
-### 2. Traceability Register
-A model linking Risk → Decision → Control → Owner → Validation → Status to maintain end-to-end visibility.
+### 2. [Traceability Register](/traceability-register/README.md)
+A consolidated governance view linking Risk → Decision → Control → Owner → Validation → Status, ensuring lifecycle visibility and audit defensibility.
 
-### 3. Exception Management
-Templates and tracking mechanisms for controlled exception handling with enforced expiry and oversight.
+### 3. [Exception Management](/exception-management/README.md)
+Time-bound Security Exception (EX) records with enforced expiry, compensating controls, approval authority, and escalation discipline.
 
-### 4. Review Process
-A lightweight architecture review workflow covering intake, evaluation, approval, and revalidation.
+### 4. [Review Process](review-process/architecture-review-process.md)
+A defined architecture review workflow covering decision intake, approval authority, lifecycle states, revalidation triggers, and governance reporting.
 
-### 5. Control Validation
-Guidance for defining how controls are tested, validated, and monitored over time.
-
-### 6. Practical Scenarios
-Realistic examples demonstrating how decisions are documented under enterprise constraints.
+### 5. [Governance Metrics](governance-metrics/governance-metrics-model.md)
+Measurable indicators used to assess architectural health, exception discipline, validation coverage, and risk-to-control alignment.
 
 
 ---
@@ -71,7 +68,11 @@ Realistic examples demonstrating how decisions are documented under enterprise c
 2. Maintain the traceability register as the master reference.  
 3. Enforce expiry for all exceptions.  
 4. Define validation expectations for each control.  
-5. Schedule periodic review of major architectural decisions.  
+5. Schedule periodic review of major architectural decisions.
+
+---
+
+
 
 This framework is particularly relevant in cloud-heavy, hybrid, and rapidly evolving environments where architectural decisions must remain traceable and defensible over time.
 
